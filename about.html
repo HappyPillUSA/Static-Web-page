@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HappyPill-Home </title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Demonstrates skills involved in creating  static webpages">
+    <meta name="keywords" content="HTML5,CSS, tags">
+    <meta name="author" content="Anny Grijalba Aka HappyPill">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="images/hplogo.png">
+    <!-- main css -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- auto refresh-->
+    <meta http-equiv="refresh" content="60">
+    <!--font awasome kit-->
+    <script src="https://kit.fontawesome.com/d77831af06.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <ul class="link">
+                    <li> <a href="index.html">
+                            <i class="fa fa-home"></i>
+                            Home</a></li>
+                    <li><a href="job.html">Vacant</a></li>
+                    <li><a href="test.html">Online Test</a></li>
+                    <li><a href="enhancements.html"><i class="fa fa-cogs"></i> CSS Animations</a>
+                </ul>
+            </nav>
+        </header>
+        <div id="social_nav_horizontal">
+            <ul>
+                <li><a href="#" class="social-icon social-icon-facebook"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#" class="social-icon social-icon-twitter"><i class="fab fa-twitter"></i></a></li>
+                <li> <a href="#" class="social-icon social-icon-instagram"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+
+        <main>
+            <h2 class="col-sm-12 container text-center">Ana Grijalba</h2>
+            <section class="container">
+                <!-- Spacer -->
+                <div class="col-sm-1"></div>
+
+                <dl id="myprofile" class="col-sm-7">
+                    <dt>Name</dt>
+                    <dd>Anny Grijalba</dd>
+                    <dt>Home Town</dt>
+                    <dd>Miami</dd>
+                    <dt>Favorite Pet</dt>
+                    <dd>Giraffe Telcelino</dd>
+                    <dt>Favorite book Series</dt>
+                    <dd>The Lady Astronaut/dd>
+                </dl>
+                <figure class="col-sm-4">
+                    <a href="images/me.jpg">
+                        <img src="images/me.jpg" alt="Anny aka HappyPill" />
+                    </a>
+                </figure>
+
+            </section>
+
+            <!--timetable-->
+            <section class="container text-center">
+                <h2>Timetable</h2>
+                <div class="col-sm-1"></div>
+
+
+                <table class="col-sm-10">
+
+                    <tr>
+                        <th>Time</th>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                        <th>Wednesday</th>
+                        <th>Thursday</th>
+                        <th>Friday</th>
+                    </tr>
+                    <tr>
+                        <th>08:30</th>
+                        <td rowspan="2">Running</td>
+                        <td rowspan="2">Streching</td>
+                        <td></td>
+                        <td></td>
+                        <td rowspan="2">Flamenco</td>
+                    </tr>
+                    <tr>
+                        <th>09:30</th>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>10:30</th>
+                        <td rowspan="2">Personal Grow Learning</td>
+                        <td></td>
+                        <td></td>
+                        <td>REading-Searching/td>
+                    </tr>
+                    <tr>
+                        <th>11:30</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>12:30</th>
+                        <td rowspan="2">Family Lunch</td>
+                        <td rowspan="2">Planning Activities</td>
+                        <td></td>
+                        <td></td>
+                        <td rowspan="2">Arragements<br />appoimentes </td>
+                    </tr>
+                    <tr>
+                        <th>13:30</th>
+                        <td>Siesta Time<br />Lectures</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>14:30</th>
+                        <td rowspan="2">COS10011<br />Lecture 1 : BA302</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>15:30</th>
+                        <td> Phone calls<br />Planning Doctors Vissitors</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>16:30</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>17:30</th>
+                        <td rowspan="2">Flamenco<br /> Practicing</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th>18:30</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </section>
+
+            <section class="container">
+                <!-- Spacer -->
+                <div class="col-sm-4"></div>
+
+                <form class="col-sm-6 " target="_blank" action="mailto:happypill@Artech.center" method="get" enctype="text/plain">
+                    <h2>GET IN TOUCH</h2>
+                    <p><label for="subject">Email Subject</label></p>
+                    <p><input type="text" name="subject" id="subject" placeholder="Enter email subject..." tabindex="1" size="30" pattern="[a-zA-Z0-9\s]+" />
+                    </p>
+                    <p><label for="body">Message</label></p>
+                    <p><textarea name="body" id="body" rows="8" cols="40" placeholder="Enter Message..." tabindex="2"></textarea>
+                    </p>
+                    <input class="button" type="submit" name="send" value="Send Email" />
+                </form>
+            </section>
+        </main>
+        <!--footer -->
+        <footer>
+            <p> www.happypill.com | 9751 E Bay Harbor DR | Miami - Florida | +1 786 5461834| &copy;2019 </p>
+            <p> &#160;
+                &#160;
+                <strong>Mark up by:</strong> <a href="mailto:happypill@artech.center">
+                    HappyPill</a></p>
+
+        </footer>
+    </div>
+</body>
+
+</html>
