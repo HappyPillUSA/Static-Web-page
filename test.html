@@ -1,98 +1,117 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title> UA  Company -TEST </title>
-  <meta charset="UTF-8">
-  <meta name="description" content="Demonstrates skills involved in creating  static webpages" />
-  <meta name="keywords" content="HTML5,CSS, tags" />
-  <meta name="author" content="FILL WITH YOUR NAME" >
+    <title> arTechCom Apply Online Test </title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Demonstrates skills involved in creating  static webpages" />
+    <meta name="keywords" content="HTML5,CSS, tags" />
+    <meta name="author" content="Ana Grijalba aka HappyPill">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <meta http-equiv="refresh" content="60">
+    <!--font awasome kit-->
+    <script src="https://kit.fontawesome.com/d77831af06.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta http-equiv="refresh" content="60">
 </head>
- <body>
-  <div class="wrapper">
-   <nav>
-        <ul class="link">
-          <li><a href="index.html">
-          <i class="fa fa-home"></i>
-          Home</a></li>
-          <li><<a href="job.html">Vacant</a></li>
-          
-          <li><a href="test.html">Online Test</a></li>
-          
-          <li><a href="enhancements.html"><i class="fa fa-cogs"></i> CSS Animations</a> 
-         </ul>
-   </nav>
-    
-    <h2>Online form test</h2>
-      <form>
-        First Name: <br> <input type="text" name=¨firstname><br>
-        Last Name:<br><input type="text" name=¨lastname><br>
-        
-        <fieldset>
-          <br>
-        <legend>Your General Details</legend> 
-                  <label for="name">Name</label>        
-          <input type="text" placeholder="Type Your Complete Name" size="20" name="name" id="name" required/><br> 
-          <label for="gender">Gender</label>
-          <label for="Male"> Male</label>
-          <input type="radio" name ="gender"id="Male"/>
-          <label for="Female"> Female</label>
-          <input type="radio" name ="gender"id="Female" checked="female"/><br>
-          <label for= "age" >Age</label>
-          <input type="number" name="age" id="age" min="18" max="99" value="18" setp="1" size="4"required/><br>
-          <label for="date">Date of Birth</label>
-          <input type="date" name="date" id="date" placeholder="__/__/____"required/><br>
-          <label for="color"> Favorite Color</label>
-          <input type="color" name="color" id="color"/><br>
-                  
-                  Which Country:
-          <select> 
-            <option value="Mexico">Mexico</option>
+
+<body>
+    <div class="wrapper">
+        <nav role="navegation">
+            <ul class="link">
+                <li><a href="index.html">
+                        <i class="fa fa-home"></i>
+                        Home</a></li>
+                <li><a href="job.html">Vacant</a></li>
+
+
+                <li><a href="test.html">Online Test</a></li>
+
+                <li><a href="enhancements.html"><i class="fa fa-cogs"></i> CSS Animations</a> </li>
+            </ul>
+        </nav>
+        <section class=sociallinks>
+            <a href="#"><span>Facebook</span></a>
+            <a href="#"><span>Twitter</span></a>
+            <a href="#"><span>Instagram</span></a>
+            <a href="#"><span>Pinterest</span></a>
+            <a href="#"><span>Linkedin</span></a>
+
+        </section>
+
+        <h2>Online form test</h2>
+        <form role="form">
+            First Name: <br> <input type="text" name=¨firstname><br>
+            Last Name:<br><input type="text" name=¨lastname><br>
+
+            <fieldset>
+                <br>
+                <legend>Your General Details</legend>
+                <label for="name">Name</label>
+                <input type="text" placeholder="Type Your Complete Name" size="20" name="name" id="name" required /><br>
+                <label for="gender">Gender</label>
+                <label for="Male"> Male</label>
+                <input type="radio" name="gender" id="Male" />
+                <label for="Female"> Female</label>
+                <input type="radio" name="gender" id="Female" checked="female" /><br>
+                <label for="age">Age</label>
+                <input type="number" name="age" id="age" min="18" max="99" value="18" setp="1" size="4" required /><br>
+                <label for="date">Date of Birth</label>
+                <input type="date" name="date" id="date" placeholder="__/__/____" required /><br>
+                <label for="color"> Favorite Color</label>
+                <input type="color" name="color" id="color" /><br>
+
+                Which Country:
+                <select>
+                    <option value="Mexico">Mexico</option>
                     <option value="Colombia">Colombia</option>
-            <option value="Venezuela">Venezuela</option>
-            <option value="Panama">Panama</option>
-                      <option value="Spain">Spain</option>
-            <option value="EEUU" selected>EEUU</option> 
-          </select>
-        </fieldset><br>
+                    <option value="Venezuela">Venezuela</option>
+                    <option value="Panama">Panama</option>
+                    <option value="Spain">Spain</option>
+                    <option value="EEUU" selected>EEUU</option>
+                </select>
+            </fieldset><br>
 
-              <fieldset>
-          <legend>Your Indicators</legend><br>
-                 <label for="height">Height:</label>Short
-               <input type="range" mim="0" max="100" step="5" value="50" id="height" name="height"/>Tall<br> 
-             <label for="salary">Salary:</label>Poor
-              <input type="range" mim="0" max="100" step="10" value="50"id="salary" name="salary"/>Rich<br> 
-        </fieldset><br>
+            <fieldset>
+                <legend>Your Indicators</legend><br>
+                <label for="height">Height:</label>Short
+                <input type="range" mim="0" max="100" step="5" value="50" id="height" name="height" />Tall<br>
+                <label for="salary">Salary:</label>Poor
+                <input type="range" mim="0" max="100" step="10" value="50" id="salary" name="salary" />Rich<br>
+            </fieldset><br>
 
-        <fieldset>
-          <legend>Your Contac Information</legend>
-            <label for="email">Email:</label>
-          <input for="email" name="email" id="email" placeholder="annylg@matches.com" size="25"required/> <br>
-          <label for="Phone">Phone:</label>
-          <input for"Phone" name="Phone" id="Phone" placeholder="+55544443322"requiered size="20"/><br>
-          <label for="address">Address:</label>
-          <input type="textarea" id="address" name="address"/> 
-          <br>
-          
-          Metod of Contact:<label for="e">Email</label> 
-          <input type="checkbox" name="e" id="e" size ="1"/><label for="w">Whatsaap</label> 
-          <input type="checkbox" name="w" id="w" size ="1"/><label for="chat" >In App Chat</label> 
-          <input type="checkbox" name="chat" id="chat" size ="1"/>
-           </fieldset><br>
-                  <input type ="submit" value ="send" size="9"/>
-        
-      </form>
-     
-       <footer>
-       <p> Ujjwal kappor |  xxxxxx STREET | xxxxxxxxx xxxxxxxx xxxxxx | +9(999)999-99999| &copy;2019  </p>  
-          
-       </footer>
+            <fieldset>
+                <legend>Your Contac Information</legend>
+                <label for="email">Email:</label>
+                <input for="email" name="email" id="email" placeholder="annylg@matches.com" size="25" required /> <br>
+                <label for="Phone">Phone:</label>
+                <input for="Phone" name="Phone" id="Phone" placeholder="+55544443322" requiered size="20" /><br>
+                <label for="address">Address:</label>
+                <input type="textarea" id="address" name="address" />
+                <br>
 
-        
-        
-  </div>  
+                Metod of Contact:<label for="e">Email</label>
+                <input type="checkbox" name="e" id="e" size="1" /><label for="w">Whatsaap</label>
+                <input type="checkbox" name="w" id="w" size="1" /><label for="chat">In App Chat</label>
+                <input type="checkbox" name="chat" id="chat" size="1" />
+            </fieldset><br>
+            <input type="submit" value="send" size="9" />
+
+        </form>
+        <footer role="contetinfo">
+            <p> www.happypill.com | 9751 E Bay Harbor DR | Miami - Florida | +1 786 5461834| &copy;2019 </p>
+            <p> &#160;
+                &#160;
+                <strong>Mark up by:</strong> <a href="mailto:happypill@artech.center">
+                    HappyPill</a></p>
+        </footer>
+
+
+
+
+    </div>
 </body>
+
 </html>
+
+          
+         
